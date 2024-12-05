@@ -4,7 +4,6 @@
 #include <iostream>
 #include <stdlib.h>
 #include <list>
-
 using namespace std;
 
 int my_arr[] = {1,3,2,18, -19, 14, -21};
