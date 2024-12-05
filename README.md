@@ -2,4 +2,6 @@
 
 ### Shows my sample solutions to tasks in C++.
 
-Made by Kinga Mazur as a student at Warsow School of Compter Science.
+
+
+#####Made by Kinga Mazur, a student at Warsow School of Compter Science.
