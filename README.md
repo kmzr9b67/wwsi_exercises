@@ -4,4 +4,4 @@
 
 
 
-#####Made by Kinga Mazur, a student at Warsow School of Compter Science.
+##### Made by Kinga Mazur, a student at Warsow School of Compter Science.
