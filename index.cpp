@@ -9,7 +9,7 @@ int main() {
     int b = rand()%100+1;
     cout << "Enter the value: ";
     cin >> a;
-    cout <<b << "\n";
+    cout << b << "\n";
     int my_arr[b];
     for (int i=0; i < a; i++) my_arr[i] = rand()%100-100;
     for (int i=0; i<sizeof(my_arr)/sizeof(my_arr[0]);i++) {
