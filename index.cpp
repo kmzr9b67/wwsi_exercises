@@ -1,17 +1,17 @@
 #include <iostream>
-#include <cstdio>
-#include <math.h>
-#include <iostream>
 #include <stdlib.h>
-#include <list>
+#include <cstdlib>
 
 using namespace std;
 
-int my_arr[] = {1,3,2,18, -19, 14, -21};
 int main() {
-    int a;
+    int a ;
+    int b = rand()%100+1;
     cout << "Enter the value: ";
     cin >> a;
+    cout <<b << "\n";
+    int my_arr[b];
+    for (int i=0; i < a; i++) my_arr[i] = rand()%100-100;
     for (int i=0; i<sizeof(my_arr)/sizeof(my_arr[0]);i++) {
         if (my_arr[i] == a) {
             cout << i << '\n';
