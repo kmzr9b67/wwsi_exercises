@@ -9,9 +9,8 @@ int main() {
     int first , second, third;
     srand(time(NULL));
     int b = rand()%100+1;
-    cout <<b << "\n";
     int my_arr[b];
-    for (int i=0; i < b; i++) my_arr[i] = rand()%100-100;
+    for (int i=0; i < b; i++) my_arr[i] = rand()%100-0;
     for (int i = 0; i<sizeof(my_arr)/sizeof(my_arr[0]); i++) {
         if (first < my_arr[i] or i == 0) {
             third = second;
@@ -24,13 +23,16 @@ int main() {
                 second = my_arr[i];
             }
             else {
-                if (third < my_arr[i] or i == 2) {
-                    third = my_arr[i];
-                }
+                if (third < my_arr[i] or i == 2) third = my_arr[i];
             }
         }
     }
-    cout << first << " " << second << " " << third;
+    if (b<3) {
+        if (b<2) cout << first;
+        else cout << first << " " << second;
+    }
+    else {
+        cout << first << " " << second << " " << third;
+    }
     return 0;
-
 }
