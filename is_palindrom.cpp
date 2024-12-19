@@ -13,19 +13,15 @@ int  main() {
     getline(cin, n);
     for (int i=0; i< size(n); i++) {
         if (isalpha(n[i])) {
-            // cout << n[i] << '\n';
             counter +=1;
         }else {
             n.erase(i,1);
         }
     }
-    cout << n << '\n';
     for (int i=0; i<counter/2; i++) {
-        if (n[i] == n[counter-i]) {
-            cout << n[i] << '\n';
-        }
-        else {
+        if (n[i] != n[counter-i]) {
             cout << 'nie jest' << '\n';
+            return 0;
         }
     }
     cout << "Jest." << '\n';
