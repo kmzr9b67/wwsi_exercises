@@ -7,15 +7,13 @@ The projects are primarily implemented in C++ and Java.
 * **Sorting Algorithms:**
     * Bubble Sort: Implements the bubble sort algorithm for sorting arrays.
     * Selection Sort: Implements the selection sort algorithm for sorting arrays.
-* **[Add more C++ projects here]**
 
 ## Java Projects
 * **Custom Classes:**
-    * [Class name]: A custom class for [purpose].
-    * [Class name]: A custom class for [purpose].
-* **[Add more Java projects here]**
+    * Vector2D.java: A custom class for Vector2D.
+    * Inheritance.java: A custom class for Inheritance.
 
 ## How to Use
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
+   git clone https://github.com/kmzr9b67/wwsi_exercises.git
